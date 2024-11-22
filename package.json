@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"tailwindcss -i ./src/input.css -o ./Actual_code/styles.css --watch"
+    "dev":"vite",
+    "build": "vite build"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.10"
+  },
+  "dependencies": {
+    "vite": "^5.4.11"
   }
 }
